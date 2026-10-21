@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.runtime/
+docs/cadangan-tata-letak.patch
+coverage/
+*.log
+db/backups/
+!db/backups/.gitkeep
+# Laporan internal dan arsip sumber tetap lokal, tidak masuk repository.
+*.pdf
+docs/*.pdf.txt
+*.zip
+# Kunci/credential lokal.
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+.aws/
+.ssh/
+.codex/
+credentials*.json
+*.env
