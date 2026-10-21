@@ -1,0 +1,3 @@
+# Ledger migration/seed memakai checksum byte: pertahankan line ending berkas asli.
+db/migrations/** -text
+db/seed/** -text

@@ -1,0 +1,8 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "comparisons": [
+    {"kode":"penelitian-target-produktivitas-berbeda","domain":"penelitian","field":"target","sources":[{"tabel":"2.8","pdf":43,"cetak":"35","nilai":105,"kutipan":"Penelitian: target 105, realisasi 3, capaian 2,8%."},{"tabel":"4.7","pdf":117,"cetak":"109","nilai":130,"kutipan":"Total penelitian: target 130, realisasi 7, capaian 5,38%."}]},
+    {"kode":"penelitian-realisasi-produktivitas-berbeda","domain":"penelitian","field":"realisasi","sources":[{"tabel":"2.8","pdf":43,"cetak":"35","nilai":3,"kutipan":"Penelitian: target 105, realisasi 3, capaian 2,8%."},{"tabel":"4.7","pdf":117,"cetak":"109","nilai":7,"kutipan":"Total penelitian: target 130, realisasi 7, capaian 5,38%."}]},
+    {"kode":"pkm-target-produktivitas-berbeda","domain":"pkm","field":"target","sources":[{"tabel":"2.8","pdf":43,"cetak":"35","nilai":25,"kutipan":"Pengabdian Masyarakat: target 25, realisasi 2, capaian 8%."},{"tabel":"4.9","pdf":119,"cetak":"111","nilai":29,"kutipan":"PkM internal: target 20, realisasi 0; eksternal: target 9, realisasi 2."}]}
+  ]
+}

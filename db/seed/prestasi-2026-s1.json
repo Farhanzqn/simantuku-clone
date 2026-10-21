@@ -1,0 +1,128 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "periode_laporan": "2026-S1",
+  "tahun": 2026,
+  "tabel": "1.8",
+  "halaman_pdf": 27,
+  "halaman_cetak": "19",
+  "narasi": {
+    "jumlah_mahasiswa": 122,
+    "nasional": 105,
+    "regional": 8,
+    "internasional": 9
+  },
+  "rows": [
+    {
+      "prodi_kode": "06",
+      "jumlah_mahasiswa": 20,
+      "nasional": 17,
+      "regional": 3,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "07",
+      "jumlah_mahasiswa": 5,
+      "nasional": 5,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "08",
+      "jumlah_mahasiswa": null,
+      "nasional": null,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "09",
+      "jumlah_mahasiswa": 25,
+      "nasional": 20,
+      "regional": 3,
+      "internasional": 2,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "10",
+      "jumlah_mahasiswa": 24,
+      "nasional": 21,
+      "regional": 1,
+      "internasional": 2,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "11",
+      "jumlah_mahasiswa": 10,
+      "nasional": 9,
+      "regional": null,
+      "internasional": 1,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "12",
+      "jumlah_mahasiswa": 1,
+      "nasional": 1,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "13",
+      "jumlah_mahasiswa": 8,
+      "nasional": 8,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "14",
+      "jumlah_mahasiswa": 4,
+      "nasional": 3,
+      "regional": null,
+      "internasional": 1,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "15",
+      "jumlah_mahasiswa": 3,
+      "nasional": 3,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "16",
+      "jumlah_mahasiswa": 8,
+      "nasional": 5,
+      "regional": 1,
+      "internasional": 2,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "17",
+      "jumlah_mahasiswa": 7,
+      "nasional": 6,
+      "regional": null,
+      "internasional": 1,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "18",
+      "jumlah_mahasiswa": 3,
+      "nasional": 3,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    },
+    {
+      "prodi_kode": "19",
+      "jumlah_mahasiswa": 4,
+      "nasional": 4,
+      "regional": null,
+      "internasional": null,
+      "pkm_dikti": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿import {date,request,requireUser,query,format} from './api.js';
+import {el,panel,state,table,error,failure,actionButton} from './ui.js';
+import {formDefinitions} from './input-schema.js';
+import {unitLabel} from './unit-labels.js';
+const root=document.getElementById('workspace');let offset=0,user,selected,visible=[],busy=false,loading=false,sequence=0;
+const filters=el('div',null,'filters'),layout=el('div',null,'review-layout'),queue=panel('review-queue','Antrean pengajuan'),detail=panel('review-detail','Perbandingan nilai'),message=el('p',null,'save-status');
+const select=el('select');select.name='domain';select.append(new Option('Semua domain',''));for(const [key,d]of Object.entries(formDefinitions))select.append(new Option(d.title,key));const label=el('label','Jenis data');label.append(select);filters.append(label);
+const button=actionButton;
+const unitSelect=el('select'),periodSelect=el('select');unitSelect.name='unit_id';periodSelect.name='periode_laporan_id';
+for(const [control,title,all]of [[unitSelect,'Unit','Semua unit'],[periodSelect,'Periode laporan','Semua periode']]){control.append(new Option(all,''));const label=el('label',title);label.append(control);filters.append(label);}
+const bulkActions=el('div',null,'bulk-actions'),bulkCount=el('p'),result=panel('bulk-result','Hasil verifikasi massal');result.hidden=true;
+const approveAll=button('Setujui semua',()=>confirmBulk(true)),rejectAll=button('Tolak semua',()=>confirmBulk(false));approveAll.id='approve-all';rejectAll.id='reject-all';rejectAll.classList.add('bulk-danger');
+bulkActions.append(approveAll,rejectAll,bulkCount);message.setAttribute('role','status');
+const activeFilter=()=>Object.fromEntries([['domain',select.value],['unit_id',unitSelect.value],['periode_laporan_id',periodSelect.value]].filter(([,v])=>v));
+const eligible=()=>visible.filter(x=>String(x.submitted_by)!==String(user.id));
+function controls(){approveAll.disabled=rejectAll.disabled=busy||loading||!eligible().length;for(const control of filters.querySelectorAll('select,button'))control.disabled=busy||loading;bulkCount.textContent=loading?'Memuat item…':format(eligible().length)+' item dapat diverifikasi dari '+format(visible.length)+' item pada halaman ini (maks. 50). Pengajuan sendiri dilewati.';}
+async function load(){const current=++sequence;loading=true;visible=[];controls();state(queue,'loading','Memuat antrean…');try{const r=await request('/verification/submissions'+query({...activeFilter(),limit:50,offset}));if(current!==sequence)return;visible=r.data;state(queue,r.data.length?'ready':'empty',r.data.length?'':'Tidak ada pengajuan menunggu verifikasi.');queue.querySelector('.panel-meta').textContent='Sumber: pengajuan unit · halaman aktif';table(queue,[{label:'Domain',value:x=>formDefinitions[x.domain]?.title??x.domain},{label:'Unit / pengaju',value:x=>unitLabel(x.unit_nama)+' / '+x.pengaju},{label:'Prodi / periode',value:x=>(x.prodi_nama??'Institusi / indikator')+' · '+x.periode_laporan},{label:'Diajukan',value:x=>date(x.submitted_at)+ ' '+new Date(x.submitted_at).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Jakarta'})+' WIB'},{label:'Periksa',value:x=>button('Periksa #'+x.id,()=>inspect(x))}],r.data);const nav=el('div',null,'action-bar');const prev=button('Sebelumnya',()=>{if(busy)return;offset=Math.max(0,offset-50);return load();});prev.disabled=!offset;const next=button('Berikutnya',()=>{if(busy)return;offset+=50;return load();});next.disabled=r.data.length<50;nav.append(prev,next);queue.querySelector('.panel-content').append(nav);}catch(e){if(current===sequence)error(queue,e,undefined,load);}finally{if(current===sequence){loading=false;controls();}}}
+function confirmBulk(approve){
+ if(busy||loading||!eligible().length)return;
+ const rows=eligible().map(x=>({...x})),filter=activeFilter(),dialog=el('dialog',null,'bulk-dialog'),form=el('form'),title=el('h2',approve?'Setujui semua item ini?':'Tolak semua item ini?');title.id='bulk-title';dialog.id='bulk-confirmation';dialog.setAttribute('aria-labelledby',title.id);
+ const summary=el('p',format(rows.length)+' item pada halaman aktif. Item yang berubah atau merupakan pengajuan sendiri akan dilewati.');
+ const groups=el('ul');for(const text of [...new Set(rows.map(x=>(formDefinitions[x.domain]?.title??x.domain)+' / '+unitLabel(x.unit_nama)+' / '+x.periode_laporan))])groups.append(el('li',text));
+ const filterText=el('p','Filter: '+[select,unitSelect,periodSelect].map(x=>x.selectedOptions[0].text).join(' / '));
+ form.append(title,summary,filterText,groups);let note;
+ if(!approve){const label=el('label','Alasan penolakan (wajib, 1–2000 karakter)');note=el('textarea');note.id='bulk-reason';note.required=true;note.maxLength=2000;label.append(note);form.append(label);}
+ const actions=el('div',null,'action-bar'),cancel=button('Batal',()=>dialog.close()),confirm=el('button',approve?'Ya, setujui '+format(rows.length)+' item':'Ya, tolak '+format(rows.length)+' item','button');confirm.id='bulk-confirm';confirm.type='submit';if(!approve)confirm.classList.add('bulk-danger');actions.append(cancel,confirm);form.append(actions);dialog.append(form);root.append(dialog);
+ dialog.addEventListener('cancel',e=>{if(busy)e.preventDefault();});dialog.addEventListener('close',()=>dialog.remove(),{once:true});
+ form.addEventListener('submit',async event=>{
+  event.preventDefault();if(busy)return;if(note&&!note.value.trim()){note.setCustomValidity('Isi alasan penolakan.');note.reportValidity();return;}
+  busy=true;controls();confirm.disabled=cancel.disabled=true;if(note)note.disabled=true;message.textContent='Memproses '+format(rows.length)+' item…';
+  try{
+   const {data}=await request('/verification/bulk-'+(approve?'approve':'reject'),{method:'POST',signal:AbortSignal.timeout(75000),timeout:75000,body:{confirmed:true,filter,items:rows.map(({domain,id,row_version})=>({domain,id,row_version})),...(!approve?{review_note:note.value.trim()}:{})}});
+   result.hidden=false;state(result,'ready');result.querySelector('.panel-meta').textContent='Berhasil '+format(data.counts.success)+', dilewati '+format(data.counts.skipped)+', gagal '+format(data.counts.failed)+'.';
+   table(result,[{label:'Item',value:x=>(formDefinitions[x.domain]?.title??x.domain)+' #'+x.id},{label:'Hasil',value:x=>({success:'Berhasil',skipped:'Dilewati',failed:'Gagal'})[x.outcome]},{label:'Alasan',value:x=>x.reason??'Selesai'}],data.results);
+   if(!data.audit_recorded)result.querySelector('.panel-content').prepend(el('p','Audit ringkasan gagal dicatat. Audit per item yang berhasil tetap tersimpan. Hubungi admin dengan ID permintaan '+data.request_id+'.','error-box'));
+   message.textContent=result.querySelector('.panel-meta').textContent;state(detail,'empty','Pilih pengajuan untuk diperiksa.');
+  }catch(e){failure(message,e,load);}
+  finally{busy=false;dialog.close();await load();controls();}
+ });
+ note?.addEventListener('input',()=>note.setCustomValidity(''));dialog.showModal();cancel.focus();
+}
+async function inspect(row){if(busy)return;selected=row;state(detail,'loading','Memuat perubahan…');try{const {data}=await request('/verification/'+row.domain+'/'+row.id+'/diff');state(detail,'ready');detail.querySelector('.panel-meta').textContent='Pengajuan #'+row.id+' · Sumber: '+data.submission.sumber+' · Periode laporan #'+data.submission.periode_laporan_id;
+ const labels=Object.fromEntries((formDefinitions[row.domain]?.columns??[]).map(x=>[x.key,x.label]));table(detail,[{label:'Kolom',value:x=>labels[x.field]??x.field},{label:'Approved sebelumnya',value:x=>value(x.before)},{label:'Diajukan',value:x=>value(x.after)}],data.diff.filter(x=>!['periode_laporan_id','periode_akademik_id','prodi_id','indikator_id','rka_target_id'].includes(x.field)));
+ const content=detail.querySelector('.panel-content');if(!data.diff.length)content.append(el('p','Tidak ada perbedaan nilai.'));for(const flag of data.flags)content.append(el('p',flag.pesan,'warning-box'));
+ const noteLabel=el('label','Catatan review'),note=el('textarea');note.id='review-note';noteLabel.append(note);content.append(noteLabel);let override,reason;
+ if(user.role==='admin'){const l=el('label',' Override admin (wajib alasan)'),check=el('input');check.type='checkbox';check.id='review-override';l.prepend(check);reason=el('textarea');reason.id='override-reason';reason.setAttribute('aria-label','Alasan override admin');reason.placeholder='Alasan override';override=check;content.append(l,reason);}
+ const msg=el('p',null,'auth-message');msg.id='review-message';msg.setAttribute('role','status');const actions=el('div',null,'action-bar');
+ async function decide(action){if(busy)return;if(!note.value.trim()){msg.textContent='Isi catatan review terlebih dahulu.';note.focus();return;}if(override?.checked&&!reason.value.trim()){msg.textContent='Isi alasan override.';return;}busy=true;controls();approve.disabled=reject.disabled=true;try{await request('/verification/'+row.domain+'/'+row.id+'/'+action,{method:'POST',body:{row_version:data.submission.row_version,review_note:note.value.trim(),...(override?.checked?{override:true,override_reason:reason.value.trim()}:{})}});state(detail,'empty',action==='approve'?'Pengajuan disetujui. Dashboard menampilkan data approved.':'Pengajuan ditolak. Unit dapat memperbaiki draft.');await load();}catch(e){failure(msg,e,()=>decide(action));}finally{busy=false;controls();approve.disabled=reject.disabled=false;}}
+ const approve=button('Approve',()=>decide('approve')),reject=button('Reject',()=>decide('reject'));approve.id='approve-data';reject.id='reject-data';actions.append(approve,reject);content.append(actions,msg);
+ if(String(data.submission.submitted_by)===String(user.id))content.append(el('p',user.role==='admin'?'Anda pengaju. Persetujuan memerlukan override dan alasan.':'Anda pengaju. Pengajuan ini harus disetujui verifikator lain.','warning-box'));
+ }catch(e){error(detail,e,undefined,()=>inspect(row));}}
+function value(v){if(v===null||v===undefined)return 'belum ada data';if(typeof v==='object')return JSON.stringify(v);return typeof v==='number'?format(v):String(v);}
+async function boot(){user=await requireUser();if(!user)return;layout.append(queue,detail);root.replaceChildren(filters,bulkActions,message,result,layout);root.removeAttribute('aria-live');state(detail,'empty','Pilih pengajuan untuk membandingkan nilai dan membaca catatan kualitas.');for(const control of [select,unitSelect,periodSelect])control.addEventListener('change',()=>{offset=0;load();});filters.append(button('Muat ulang',()=>{if(!busy)return load();}));controls();const {data}=await request('/verification/filters');for(const row of data.units)unitSelect.append(new Option(unitLabel(row.nama),row.id));for(const row of data.periods)periodSelect.append(new Option(row.kode,row.id));await load();}
+boot().catch(e=>failure(root,e,()=>location.reload()));

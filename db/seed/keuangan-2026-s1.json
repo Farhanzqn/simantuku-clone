@@ -1,0 +1,41 @@
+{
+ "dokumen":"Laporan Manajemen ITPLN Semester I 2026","periode_laporan":"2026-S1","tahun":2026,
+ "rows":[
+  {"kategori":"likuiditas","target":7.25,"realisasi":15.59,"status_sumber":"Tercapai","tabel":"2.12","pdf":58},
+  {"kategori":"efisiensi","target":85,"realisasi":99,"status_sumber":"Perlu evaluasi","tabel":"2.12","pdf":58},
+  {"kategori":"belanja-sdm","target":42,"realisasi":19,"status_sumber":"Tercapai","tabel":"2.12","pdf":58},
+  {"kategori":"cost-student","target":39808000,"realisasi":11136000,"status_sumber":"Tercapai","tabel":"2.12","pdf":58},
+  {"kategori":"non-spp","target":34,"realisasi":3,"status_sumber":"Perlu percepatan","tabel":"2.12","pdf":58},
+  {"kategori":"pendapatan-mahasiswa","target":142291028375,"realisasi":59395010115,"capaian_laporan":42,"tabel":"2.13","pdf":60},
+  {"kategori":"pendapatan-non-mahasiswa","target":85000000000,"realisasi":2112640000,"capaian_laporan":2,"tabel":"2.13","pdf":60},
+  {"kategori":"tridarma-langsung","target":45856485000,"realisasi":21113030000,"capaian_laporan":46,"tabel":"2.14","pdf":61},
+  {"kategori":"tridarma-tidak-langsung","target":37186034000,"realisasi":11893077000,"capaian_laporan":32,"tabel":"2.14","pdf":61},
+  {"kategori":"umum-operasional","target":90424004000,"realisasi":19882085000,"capaian_laporan":22,"tabel":"2.14","pdf":61},
+  {"kategori":"sewa-outsourcing","target":19708668000,"realisasi":7873654000,"capaian_laporan":40,"tabel":"2.14","pdf":61},
+  {"kategori":"aset","realisasi":90245889000,"periode_sebelumnya":82546270000,"perubahan":7699619000,"tabel":"4.19","pdf":144},
+  {"kategori":"liabilitas","realisasi":25932811000,"periode_sebelumnya":22324295000,"perubahan":3608516000,"tabel":"4.19","pdf":144},
+  {"kategori":"pendapatan-laporan","realisasi":144942035000,"periode_sebelumnya":125243108000,"perubahan":19698927000,"tabel":"4.19","pdf":144},
+  {"kategori":"beban-laporan","realisasi":137585395000,"periode_sebelumnya":123987111000,"perubahan":13598284000,"tabel":"4.19","pdf":144},
+  {"kategori":"laba-rugi","realisasi":4091101000,"periode_sebelumnya":9401740000,"perubahan":-5310639000,"tabel":"4.19","pdf":144},
+  {"kategori":"arus-kas","realisasi":13051688000,"periode_sebelumnya":59045927000,"perubahan":-45994239000,"tabel":"4.19","pdf":144}
+ ],
+ "flags":[
+  {"kode":"keuangan-kpi-pendapatan-berbeda","pesan":"KPI Rp0,417 M (Rp417.000.000) berbeda dengan pendapatan mahasiswa Rp59.395.010.115. BKU/PRP perlu memastikan satuan/cakupan; keduanya dipertahankan.","sources":[
+   {"tabel":"Ringkasan Eksekutif","pdf":3,"cetak":"iii","nilai":417000000,"satuan":"Rp (0,417 miliar)","kutipan":"Rp.0,417 M"},
+   {"tabel":"4.20","pdf":146,"nilai":417000000,"satuan":"Rp (0,417 miliar)","kutipan":"Rp.0,417 M"},
+   {"tabel":"2.13","pdf":60,"nilai":59395010115,"satuan":"Rp","kutipan":"Pendapatan Mahasiswa 142.291.028.375 59.395.010.115 42%"}
+  ]},
+  {"kode":"keuangan-rujukan-narasi-berbeda","pesan":"Narasi PDF 144–145 merujuk Tabel 4.16, tetapi rincian laporan keuangan berada pada Tabel 4.19.","sources":[
+   {"tabel":"4.19","pdf":144,"kutipan":"Tabel 4. 19 Laporan Keuangan TAhun 2026 Semester I"},
+   {"tabel":"4.16 (narasi)","pdf":144,"kutipan":"Berdasarkan Tabel 4.16 perbandingan realisasi periode laporan dengan periode"}
+  ]},
+  {"kode":"keuangan-pendapatan-cakupan-berbeda","pesan":"Pendapatan 4.19 Rp144.942.035.000 berbeda dengan jumlah dua rincian 2.13 Rp61.507.650.115; cakupan perlu konfirmasi BKU, jangan digabung.","sources":[
+   {"tabel":"4.19","pdf":144,"nilai":144942035000,"satuan":"Rp","kutipan":"Pendapatan 144.942.035.000 125.243.108.000 19.698.927.000"},
+   {"tabel":"2.13","pdf":60,"nilai":61507650115,"satuan":"Rp (jumlah rincian)","kutipan":"Pendapatan Mahasiswa 59.395.010.115; Pendapatan Non Mahasiswa 2.112.640.000"}
+  ]},
+  {"kode":"keuangan-beban-cakupan-berbeda","pesan":"Beban 4.19 Rp137.585.395.000 berbeda dengan jumlah empat biaya 2.14 Rp60.761.846.000; cakupan perlu konfirmasi BKU, jangan digabung.","sources":[
+   {"tabel":"4.19","pdf":144,"nilai":137585395000,"satuan":"Rp","kutipan":"Beban 137.585.395.000 123.987.111.000 13.598.284.000"},
+   {"tabel":"2.14","pdf":61,"nilai":60761846000,"satuan":"Rp (jumlah rincian)","kutipan":"Realisasi (Rp): 21.113.030.000; 11.893.077.000; 19.882.085.000; 7.873.654.000"}
+  ]}
+ ]
+}

@@ -1,0 +1,669 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "periode_laporan": "2026-S1",
+  "tahun": 2026,
+  "formasi": [
+    {
+      "kategori": "laporan-1",
+      "nomor": 1,
+      "nama_sumber": "FKET",
+      "jumlah": 24,
+      "target": 27,
+      "capaian_laporan": 89,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 3 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-2",
+      "nomor": 2,
+      "nama_sumber": "FTEN",
+      "jumlah": 18,
+      "target": 24,
+      "capaian_laporan": 75,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 6 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-3",
+      "nomor": 3,
+      "nama_sumber": "FTBE",
+      "jumlah": 19,
+      "target": 21,
+      "capaian_laporan": 90,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-4",
+      "nomor": 4,
+      "nama_sumber": "FTIK",
+      "jumlah": 19,
+      "target": 23,
+      "capaian_laporan": 82,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 4 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-5",
+      "nomor": 5,
+      "nama_sumber": "SEKOLAH PASCASARJANA",
+      "jumlah": 13,
+      "target": 14,
+      "capaian_laporan": 92,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-6",
+      "nomor": 6,
+      "nama_sumber": "SEKOLAH VOKASI",
+      "jumlah": 12,
+      "target": 13,
+      "capaian_laporan": 92,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-7",
+      "nomor": 7,
+      "nama_sumber": "PRP",
+      "jumlah": 6,
+      "target": 10,
+      "capaian_laporan": 60,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 4 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-8",
+      "nomor": 8,
+      "nama_sumber": "PJM",
+      "jumlah": 9,
+      "target": 11,
+      "capaian_laporan": 81,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-9",
+      "nomor": 9,
+      "nama_sumber": "SPI",
+      "jumlah": 5,
+      "target": 5,
+      "capaian_laporan": 1100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-10",
+      "nomor": 10,
+      "nama_sumber": "LPPM",
+      "jumlah": 9,
+      "target": 10,
+      "capaian_laporan": 90,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-11",
+      "nomor": 11,
+      "nama_sumber": "PKA",
+      "jumlah": 4,
+      "target": 7,
+      "capaian_laporan": 57,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 3 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 44
+    },
+    {
+      "kategori": "laporan-12",
+      "nomor": 12,
+      "nama_sumber": "PERPUSTAKAAN",
+      "jumlah": 7,
+      "target": 7,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-13",
+      "nomor": 13,
+      "nama_sumber": "PMA",
+      "jumlah": 21,
+      "target": 21,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-14",
+      "nomor": 14,
+      "nama_sumber": "PPA",
+      "jumlah": 9,
+      "target": 13,
+      "capaian_laporan": 69,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 4 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-15",
+      "nomor": 15,
+      "nama_sumber": "PPK",
+      "jumlah": 10,
+      "target": 11,
+      "capaian_laporan": 91,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-16",
+      "nomor": 16,
+      "nama_sumber": "LEMTERA",
+      "jumlah": 7,
+      "target": 8,
+      "capaian_laporan": 87,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-17",
+      "nomor": 17,
+      "nama_sumber": "TCC",
+      "jumlah": 9,
+      "target": 9,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-18",
+      "nomor": 18,
+      "nama_sumber": "BAUM",
+      "jumlah": 16,
+      "target": 16,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-19",
+      "nomor": 19,
+      "nama_sumber": "BHSE",
+      "jumlah": 6,
+      "target": 8,
+      "capaian_laporan": 75,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-20",
+      "nomor": 20,
+      "nama_sumber": "BHM",
+      "jumlah": 5,
+      "target": 5,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-21",
+      "nomor": 21,
+      "nama_sumber": "BHMS",
+      "jumlah": 5,
+      "target": 8,
+      "capaian_laporan": 62,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 3 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-22",
+      "nomor": 22,
+      "nama_sumber": "BPSR",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-23",
+      "nomor": 23,
+      "nama_sumber": "BPK",
+      "jumlah": 1,
+      "target": 3,
+      "capaian_laporan": 33,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-24",
+      "nomor": 24,
+      "nama_sumber": "BPI",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-25",
+      "nomor": 25,
+      "nama_sumber": "BPP",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-26",
+      "nomor": 26,
+      "nama_sumber": "BPM",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-27",
+      "nomor": 27,
+      "nama_sumber": "BPUB",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-28",
+      "nomor": 28,
+      "nama_sumber": "BKAN",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-29",
+      "nomor": 29,
+      "nama_sumber": "BKAI",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-30",
+      "nomor": 30,
+      "nama_sumber": "BAA",
+      "jumlah": 8,
+      "target": 9,
+      "capaian_laporan": 89,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 45
+    },
+    {
+      "kategori": "laporan-31",
+      "nomor": 31,
+      "nama_sumber": "BPAK",
+      "jumlah": 3,
+      "target": 5,
+      "capaian_laporan": 60,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-32",
+      "nomor": 32,
+      "nama_sumber": "BPAA",
+      "jumlah": 4,
+      "target": 5,
+      "capaian_laporan": 80,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-33",
+      "nomor": 33,
+      "nama_sumber": "BPTI",
+      "jumlah": 7,
+      "target": 7,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-34",
+      "nomor": 34,
+      "nama_sumber": "BPAS",
+      "jumlah": 9,
+      "target": 8,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-35",
+      "nomor": 35,
+      "nama_sumber": "BSDM",
+      "jumlah": 8,
+      "target": 9,
+      "capaian_laporan": 89,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-36",
+      "nomor": 36,
+      "nama_sumber": "BKU",
+      "jumlah": 7,
+      "target": 7,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-37",
+      "nomor": 37,
+      "nama_sumber": "BAG",
+      "jumlah": 3,
+      "target": 5,
+      "capaian_laporan": 60,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-38",
+      "nomor": 38,
+      "nama_sumber": "BAKT",
+      "jumlah": 2,
+      "target": 5,
+      "capaian_laporan": 40,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 3 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-39",
+      "nomor": 39,
+      "nama_sumber": "BSAR",
+      "jumlah": 4,
+      "target": 5,
+      "capaian_laporan": 80,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-40",
+      "nomor": 40,
+      "nama_sumber": "BPAD",
+      "jumlah": 4,
+      "target": 7,
+      "capaian_laporan": 57,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 3 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-41",
+      "nomor": 41,
+      "nama_sumber": "BKM",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-42",
+      "nomor": 42,
+      "nama_sumber": "BPIK",
+      "jumlah": 2,
+      "target": 2,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-43",
+      "nomor": 43,
+      "nama_sumber": "BPKA",
+      "jumlah": 5,
+      "target": 5,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-45",
+      "nomor": 45,
+      "nama_sumber": "BKK",
+      "jumlah": 7,
+      "target": 9,
+      "capaian_laporan": 78,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 2 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-46",
+      "nomor": 46,
+      "nama_sumber": "BPTT",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-47",
+      "nomor": 47,
+      "nama_sumber": "BOPT",
+      "jumlah": 3,
+      "target": 4,
+      "capaian_laporan": 75,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-48",
+      "nomor": 48,
+      "nama_sumber": "BPTC",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-49",
+      "nomor": 49,
+      "nama_sumber": "BOTC",
+      "jumlah": 3,
+      "target": 3,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-50",
+      "nomor": 50,
+      "nama_sumber": "LDC",
+      "jumlah": 1,
+      "target": 1,
+      "capaian_laporan": 100,
+      "evaluasi": "Formasi Tenaga Kerja Sudah Terisi Penuh",
+      "tabel": "2.9",
+      "pdf": 46
+    },
+    {
+      "kategori": "laporan-51",
+      "nomor": 51,
+      "nama_sumber": "BPKL",
+      "jumlah": 2,
+      "target": 3,
+      "capaian_laporan": 67,
+      "evaluasi": "Terdapat kebutuhan pemenuhan 1 formasi tenaga kerja",
+      "tabel": "2.9",
+      "pdf": 46
+    }
+  ],
+  "pergerakan": [
+    {
+      "kategori": "masuk",
+      "label": "Pegawai Masuk",
+      "jumlah": 5,
+      "tabel": "2.11",
+      "pdf": 57
+    },
+    {
+      "kategori": "keluar",
+      "label": "Pegawai Keluar",
+      "jumlah": 4,
+      "tabel": "2.11",
+      "pdf": 57
+    },
+    {
+      "kategori": "pensiun",
+      "label": "Pensiun",
+      "jumlah": 2,
+      "tabel": "2.11",
+      "pdf": 58
+    },
+    {
+      "kategori": "pengangkatan",
+      "label": "Pengangkatan Baru",
+      "jumlah": 5,
+      "tabel": "2.11",
+      "pdf": 58
+    }
+  ],
+  "flags": [
+    {
+      "kode": "pegawai-tendik-cakupan-berbeda",
+      "pesan": "Tendik rincian prodi 30 (1.5) berbeda cakupan dengan Tenaga Pendidikan institusi 109 (2.7). BSDM perlu memastikan definisi; tidak dialokasikan atau dijumlah.",
+      "sources": [
+        {
+          "tabel": "1.5",
+          "pdf": 23,
+          "nilai": 30,
+          "satuan": "orang",
+          "kutipan": "Profil Tenaga Pendidikan Semester I Tahun 2026, tercatat ada total 30 orang tenaga pendidikan yang tersebar di 19 program studi."
+        },
+        {
+          "tabel": "2.7",
+          "pdf": 43,
+          "nilai": 109,
+          "satuan": "orang",
+          "kutipan": "Tenaga Pendidikan | Target 109 | Realisasi 109 | Capaian 100%"
+        }
+      ]
+    },
+    {
+      "kode": "formasi-spi-persentase",
+      "pesan": "SPI: capaian sumber 1100% pada 5/5; hitungan 100% dan narasi menyatakan penuh. Nilai resmi sumber tidak dikoreksi.",
+      "sources": [
+        {
+          "tabel": "2.9",
+          "pdf": 44,
+          "nilai": 1100,
+          "satuan": "%",
+          "kutipan": "9 SPI | Jumlah Tenaga Kerja 5 | Target 5 | Realisasi 1100% | Formasi Tenaga Kerja Sudah Terisi Penuh"
+        },
+        {
+          "tabel": "2.9 narasi",
+          "pdf": 47,
+          "nilai": 100,
+          "satuan": "%",
+          "kutipan": "sejumlah unit telah memenuhi 100% formasi tenaga kerja, antara lain SPI, Perpustakaan, PMA, TCC, BAUM"
+        }
+      ]
+    },
+    {
+      "kode": "formasi-bpas-persentase",
+      "pesan": "BPAS: jumlah 9/target 8 menghasilkan 112,5%, berbeda dari capaian sumber 100%/narasi penuh; pastikan target atau cakupan.",
+      "sources": [
+        {
+          "tabel": "2.9",
+          "pdf": 46,
+          "nilai": 100,
+          "satuan": "%",
+          "kutipan": "34 BPAS | Jumlah Tenaga Kerja 9 | Target 8 | Realisasi 100% | Formasi Tenaga Kerja Sudah Terisi Penuh"
+        },
+        {
+          "tabel": "2.9 narasi",
+          "pdf": 47,
+          "nilai": 100,
+          "satuan": "%",
+          "kutipan": "sejumlah unit telah memenuhi 100% formasi tenaga kerja, antara lain ... BPTI, BPAS, BKU, BKM"
+        }
+      ]
+    },
+    {
+      "kode": "formasi-nomor-44-tidak-tercantum",
+      "pesan": "Penomoran Tabel 2.9 langsung dari 43 ke 45. Ada 50 baris sumber; unit/angka nomor 44 belum tersedia dan tidak dibuat.",
+      "sources": [
+        {
+          "tabel": "2.9",
+          "pdf": 46,
+          "nilai": 43,
+          "satuan": "nomor baris",
+          "kutipan": "43 BPKA | Jumlah 5 | Target 5 | Realisasi 100%"
+        },
+        {
+          "tabel": "2.9",
+          "pdf": 46,
+          "nilai": 45,
+          "satuan": "nomor baris",
+          "kutipan": "45 BKK | Jumlah 7 | Target 9 | Realisasi 78%"
+        }
+      ]
+    }
+  ]
+}

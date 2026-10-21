@@ -1,0 +1,33 @@
+{
+  "name": "satu-data-itpln",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "db:migrate": "node db/scripts/migrate.js",
+    "db:seed": "node db/scripts/seed-pimpinan.js",
+    "db:check": "node db/scripts/check.js",
+    "db:verify": "node --test db/tests/database.test.js",
+    "db:reset": "node db/scripts/reset.js",
+    "db:app-role": "node db/scripts/app-role.js",
+    "dev": "node --watch server/app.js",
+    "start": "node server/app.js",
+    "test": "node --test --test-concurrency=1 server/tests/api.test.js server/tests/input.test.js server/tests/components.test.js server/tests/form-xlsx.test.js server/tests/excel-security.test.js",
+    "test:ui": "node --test server/tests/ui.test.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^17.2.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "express-session": "^1.19.0",
+    "fflate": "0.8.3",
+    "helmet": "^8.3.0",
+    "pg": "^8.16.0",
+    "zod": "^4.6.5"
+  }
+}

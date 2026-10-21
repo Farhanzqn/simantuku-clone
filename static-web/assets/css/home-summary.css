@@ -1,0 +1,20 @@
+/* Keep the original home cards from app.css; only extend their grid and new accents. */
+body[data-page=home] .home-cards { grid-template-columns:repeat(4,minmax(0,1fr)); }
+body[data-page=home] .home-card { overflow-wrap:anywhere; }
+body[data-page=home] .home-card[data-card=prodi] { --card-accent:var(--color-primary); --card-soft:var(--color-primary-soft); }
+body[data-page=home] .home-card[data-card=pmb_peminat] { --card-accent:var(--color-primary); --card-soft:var(--color-primary-soft); }
+body[data-page=home] .home-card[data-card=tendik] { --card-accent:var(--color-success); --card-soft:var(--color-success-soft); }
+body[data-page=home] .home-card[data-card=prodi_terakreditasi] { --card-accent:var(--color-warning); --card-soft:var(--color-warning-soft); }
+body[data-page=home] .home-card[data-card=akreditasi_institusi] { --card-accent:var(--color-primary-hover); --card-soft:var(--color-primary-soft); }
+body[data-page=home] .home-card:nth-child(n+5) { animation-delay:180ms; }
+body[data-page=home] .home-card[data-card=akreditasi_institusi] .home-card-value { font-size:clamp(26px,2.5vw,36px); letter-spacing:normal; }
+@media(max-width:1000px) {
+ body[data-page=home] .home-cards { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:480px) {
+ body[data-page=home] .home-card { padding:16px 12px; }
+ body[data-page=home] .home-card h2 { font-size:12px; letter-spacing:.015em; min-height:34px; margin-top:44px; padding-right:0; }
+ body[data-page=home] .home-card-value { font-size:32px; }
+ body[data-page=home] .home-kpi-icon { right:12px; top:14px; }
+ body[data-page=home] .home-card-period { padding:6px; }
+}

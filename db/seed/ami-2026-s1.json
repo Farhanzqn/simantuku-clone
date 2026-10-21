@@ -1,0 +1,733 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "periode_laporan": "2026-S1",
+  "tahun": 2026,
+  "comparison": [
+    {
+      "n": 1,
+      "nums": [
+        400,
+        296,
+        74
+      ],
+      "page": 132
+    },
+    {
+      "n": 2,
+      "nums": [
+        400,
+        50,
+        12.5
+      ],
+      "page": 132
+    },
+    {
+      "n": 3,
+      "nums": [
+        400,
+        141,
+        35.25
+      ],
+      "page": 132
+    },
+    {
+      "n": 4,
+      "nums": [
+        400,
+        319,
+        79.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 5,
+      "nums": [
+        400,
+        205,
+        51.25
+      ],
+      "page": 132
+    },
+    {
+      "n": 6,
+      "nums": [
+        400,
+        170,
+        42.5
+      ],
+      "page": 132
+    },
+    {
+      "n": 7,
+      "nums": [
+        400,
+        158,
+        39.5
+      ],
+      "page": 132
+    },
+    {
+      "n": 8,
+      "nums": [
+        400,
+        191,
+        47.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 9,
+      "nums": [
+        400,
+        337,
+        84.25
+      ],
+      "page": 132
+    },
+    {
+      "n": 10,
+      "nums": [
+        400,
+        245,
+        61.25
+      ],
+      "page": 132
+    },
+    {
+      "n": 11,
+      "nums": [
+        400,
+        187,
+        46.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 12,
+      "nums": [
+        400,
+        307,
+        76.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 13,
+      "nums": [
+        400,
+        242,
+        60.5
+      ],
+      "page": 132
+    },
+    {
+      "n": 14,
+      "nums": [
+        400,
+        267,
+        66.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 15,
+      "nums": [
+        400,
+        159,
+        39.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 16,
+      "nums": [
+        400,
+        116,
+        29
+      ],
+      "page": 132
+    },
+    {
+      "n": 17,
+      "nums": [
+        400,
+        123,
+        30.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 18,
+      "nums": [
+        400,
+        183,
+        45.75
+      ],
+      "page": 132
+    },
+    {
+      "n": 19,
+      "nums": [
+        400,
+        266,
+        66.5
+      ],
+      "page": 132
+    },
+    {
+      "n": 20,
+      "nums": [
+        8,
+        5,
+        62.5
+      ],
+      "page": 133
+    },
+    {
+      "n": 21,
+      "nums": [
+        4,
+        2,
+        50
+      ],
+      "page": 133
+    },
+    {
+      "n": 22,
+      "nums": [
+        4,
+        3,
+        75
+      ],
+      "page": 133
+    },
+    {
+      "n": 23,
+      "nums": [
+        5,
+        2,
+        40
+      ],
+      "page": 133
+    },
+    {
+      "n": 24,
+      "nums": [
+        11,
+        7,
+        64
+      ],
+      "page": 133
+    },
+    {
+      "n": 25,
+      "nums": [
+        10,
+        10,
+        100
+      ],
+      "page": 133
+    },
+    {
+      "n": 26,
+      "nums": [
+        63,
+        60,
+        95.24
+      ],
+      "page": 133
+    },
+    {
+      "n": 27,
+      "nums": [
+        6,
+        5,
+        83.33
+      ],
+      "page": 133
+    },
+    {
+      "n": 28,
+      "nums": [
+        5,
+        4,
+        80
+      ],
+      "page": 133
+    }
+  ],
+  "rows": [
+    {
+      "kategori": "entitas-01",
+      "tabel": "4.12",
+      "pdf": 128,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 296,
+      "capaian_laporan": 74,
+      "jumlah_standar": 67,
+      "kesenjangan": 37,
+      "persen_kesenjangan": 55.2,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-02",
+      "tabel": "4.12",
+      "pdf": 128,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 50,
+      "capaian_laporan": 12.5,
+      "jumlah_standar": 67,
+      "kesenjangan": 67,
+      "persen_kesenjangan": 100,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-03",
+      "tabel": "4.12",
+      "pdf": 128,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 141,
+      "capaian_laporan": 35.25,
+      "jumlah_standar": 67,
+      "kesenjangan": 65,
+      "persen_kesenjangan": 97,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-04",
+      "tabel": "4.12",
+      "pdf": 128,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 319,
+      "capaian_laporan": 79.75,
+      "jumlah_standar": 82,
+      "kesenjangan": 44,
+      "persen_kesenjangan": 53.7,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-05",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 205,
+      "capaian_laporan": 51.25,
+      "jumlah_standar": 63,
+      "kesenjangan": 38,
+      "persen_kesenjangan": 60.3,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-06",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 170,
+      "capaian_laporan": 42.5,
+      "jumlah_standar": 71,
+      "kesenjangan": 60,
+      "persen_kesenjangan": 84.5,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-07",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 158,
+      "capaian_laporan": 39.5,
+      "jumlah_standar": 71,
+      "kesenjangan": 69,
+      "persen_kesenjangan": 97.2,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-08",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 191,
+      "capaian_laporan": 47.75,
+      "jumlah_standar": 71,
+      "kesenjangan": 58,
+      "persen_kesenjangan": 81.7,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-09",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 337,
+      "capaian_laporan": 84.25,
+      "jumlah_standar": 71,
+      "kesenjangan": 32,
+      "persen_kesenjangan": 45.1,
+      "jumlah_prodi": null,
+      "status_sumber": "Memenuhi syarat unggul (syarat 3 tahun)"
+    },
+    {
+      "kategori": "entitas-10",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 245,
+      "capaian_laporan": 61.25,
+      "jumlah_standar": 71,
+      "kesenjangan": 53,
+      "persen_kesenjangan": 74.6,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-11",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 187,
+      "capaian_laporan": 46.75,
+      "jumlah_standar": 71,
+      "kesenjangan": 48,
+      "persen_kesenjangan": 67.6,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-12",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 307,
+      "capaian_laporan": 76.75,
+      "jumlah_standar": 71,
+      "kesenjangan": 49,
+      "persen_kesenjangan": 69,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-13",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 242,
+      "capaian_laporan": 60.5,
+      "jumlah_standar": 71,
+      "kesenjangan": 59,
+      "persen_kesenjangan": 83.1,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-14",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 267,
+      "capaian_laporan": 66.75,
+      "jumlah_standar": 71,
+      "kesenjangan": 49,
+      "persen_kesenjangan": 69,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-15",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 159,
+      "capaian_laporan": 39.75,
+      "jumlah_standar": 82,
+      "kesenjangan": 73,
+      "persen_kesenjangan": 89,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-16",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 116,
+      "capaian_laporan": 29,
+      "jumlah_standar": 82,
+      "kesenjangan": 79,
+      "persen_kesenjangan": 96.3,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-17",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 123,
+      "capaian_laporan": 30.75,
+      "jumlah_standar": 82,
+      "kesenjangan": 75,
+      "persen_kesenjangan": 91.5,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-18",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 183,
+      "capaian_laporan": 45.75,
+      "jumlah_standar": 63,
+      "kesenjangan": 52,
+      "persen_kesenjangan": 82.5,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-19",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 132,
+      "evaluasi_pdf": 134,
+      "skor_standar": 400,
+      "realisasi": 266,
+      "capaian_laporan": 66.5,
+      "jumlah_standar": 63,
+      "kesenjangan": 43,
+      "persen_kesenjangan": 68.3,
+      "jumlah_prodi": null,
+      "status_sumber": "Belum memenuhi syarat unggul"
+    },
+    {
+      "kategori": "entitas-20",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 8,
+      "realisasi": 5,
+      "capaian_laporan": 62.5,
+      "jumlah_standar": 8,
+      "kesenjangan": 3,
+      "persen_kesenjangan": 37.5,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-21",
+      "tabel": "4.12",
+      "pdf": 129,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 4,
+      "realisasi": 2,
+      "capaian_laporan": 50,
+      "jumlah_standar": 4,
+      "kesenjangan": 2,
+      "persen_kesenjangan": 50,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-22",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 4,
+      "realisasi": 3,
+      "capaian_laporan": 75,
+      "jumlah_standar": 4,
+      "kesenjangan": 1,
+      "persen_kesenjangan": 25,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-23",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 5,
+      "realisasi": 2,
+      "capaian_laporan": 40,
+      "jumlah_standar": 5,
+      "kesenjangan": 3,
+      "persen_kesenjangan": 60,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-24",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 11,
+      "realisasi": 7,
+      "capaian_laporan": 64,
+      "jumlah_standar": 11,
+      "kesenjangan": 4,
+      "persen_kesenjangan": 36.4,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-25",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 10,
+      "realisasi": 10,
+      "capaian_laporan": 100,
+      "jumlah_standar": 10,
+      "kesenjangan": 0,
+      "persen_kesenjangan": 0,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-26",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 63,
+      "realisasi": 60,
+      "capaian_laporan": 95.24,
+      "jumlah_standar": 63,
+      "kesenjangan": 3,
+      "persen_kesenjangan": 4.8,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-27",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 6,
+      "realisasi": 5,
+      "capaian_laporan": 83.33,
+      "jumlah_standar": 6,
+      "kesenjangan": 1,
+      "persen_kesenjangan": 16.7,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "entitas-28",
+      "tabel": "4.12",
+      "pdf": 130,
+      "pembanding_pdf": 133,
+      "evaluasi_pdf": 135,
+      "skor_standar": 5,
+      "realisasi": 4,
+      "capaian_laporan": 80,
+      "jumlah_standar": 5,
+      "kesenjangan": 1,
+      "persen_kesenjangan": 20,
+      "jumlah_prodi": null,
+      "status_sumber": null
+    },
+    {
+      "kategori": "rekap-80",
+      "tabel": "4.13",
+      "pdf": 131,
+      "skor_standar": null,
+      "realisasi": null,
+      "capaian_laporan": null,
+      "jumlah_standar": null,
+      "kesenjangan": null,
+      "persen_kesenjangan": null,
+      "jumlah_prodi": 1,
+      "status_sumber": null
+    },
+    {
+      "kategori": "rekap-60",
+      "tabel": "4.13",
+      "pdf": 131,
+      "skor_standar": null,
+      "realisasi": null,
+      "capaian_laporan": null,
+      "jumlah_standar": null,
+      "kesenjangan": null,
+      "persen_kesenjangan": null,
+      "jumlah_prodi": 7,
+      "status_sumber": null
+    },
+    {
+      "kategori": "rekap-40",
+      "tabel": "4.13",
+      "pdf": 131,
+      "skor_standar": null,
+      "realisasi": null,
+      "capaian_laporan": null,
+      "jumlah_standar": null,
+      "kesenjangan": null,
+      "persen_kesenjangan": null,
+      "jumlah_prodi": 5,
+      "status_sumber": null
+    },
+    {
+      "kategori": "rekap-rendah",
+      "tabel": "4.13",
+      "pdf": 131,
+      "skor_standar": null,
+      "realisasi": null,
+      "capaian_laporan": null,
+      "jumlah_standar": null,
+      "kesenjangan": null,
+      "persen_kesenjangan": null,
+      "jumlah_prodi": 6,
+      "status_sumber": null
+    }
+  ]
+}

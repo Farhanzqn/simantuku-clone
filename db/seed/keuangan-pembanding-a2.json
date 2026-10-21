@@ -1,0 +1,8 @@
+{
+ "kode":"keuangan-kpi-non-mahasiswa-berbeda",
+ "pesan":"KPI A2 Rp0,025 M = Rp25.000.000 berbeda dengan pendapatan non mahasiswa Tabel 2.13 Rp2.112.640.000. BKU/PRP perlu memastikan cakupan/satuan; nilai approved dipertahankan.",
+ "sources":[
+  {"kode":"finance-4.20-146","tabel":"4.20","halaman_pdf":146,"halaman_cetak":"138","nilai":25000000,"satuan":"Rp (0,025 miliar)","kutipan":"Rp.0,025M"},
+  {"kode":"finance-2.13-60","tabel":"2.13","halaman_pdf":60,"halaman_cetak":"52","nilai":2112640000,"satuan":"Rp","kutipan":"85.000.000.000 2.112.640.000 2%"}
+ ]
+}

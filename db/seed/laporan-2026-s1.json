@@ -1,0 +1,1429 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "sha256": "E141B6AF50D31F63FF7BBF42E2E93C9BC0442D52E713B70E82ACC44AC625D221",
+  "snapshot": "2026-06-30",
+  "sources": [
+    {
+      "kode": "t1_1",
+      "nomor_tabel": "1.1",
+      "halaman_pdf": 13,
+      "halaman_cetak": "5–6",
+      "catatan": "Master target KPI; berlanjut PDF 14"
+    },
+    {
+      "kode": "t1_2",
+      "nomor_tabel": "1.2",
+      "halaman_pdf": 15,
+      "halaman_cetak": "7",
+      "catatan": "Target RKA"
+    },
+    {
+      "kode": "t1_3",
+      "nomor_tabel": "1.3",
+      "halaman_pdf": 17,
+      "halaman_cetak": "9",
+      "catatan": "Mahasiswa aktif"
+    },
+    {
+      "kode": "t1_4",
+      "nomor_tabel": "1.4",
+      "halaman_pdf": 22,
+      "halaman_cetak": "14",
+      "catatan": "Dosen"
+    },
+    {
+      "kode": "t1_5",
+      "nomor_tabel": "1.5",
+      "halaman_pdf": 23,
+      "halaman_cetak": "15",
+      "catatan": "Tendik; baris TOTAL tertukar"
+    },
+    {
+      "kode": "t1_6",
+      "nomor_tabel": "1.6",
+      "halaman_pdf": 24,
+      "halaman_cetak": "16",
+      "catatan": "Tracer lulusan 2025"
+    },
+    {
+      "kode": "t4_6",
+      "nomor_tabel": "4.6",
+      "halaman_pdf": 114,
+      "halaman_cetak": "106–107",
+      "catatan": "PMB; berlanjut PDF 115"
+    },
+    {
+      "kode": "t4_20_ab",
+      "nomor_tabel": "4.20",
+      "halaman_pdf": 146,
+      "halaman_cetak": "138",
+      "catatan": "Capaian perspektif A/B"
+    },
+    {
+      "kode": "t4_20_c",
+      "nomor_tabel": "4.20",
+      "halaman_pdf": 147,
+      "halaman_cetak": "139",
+      "catatan": "Capaian perspektif C; pembanding jafung 58,08%"
+    },
+    {
+      "kode": "t4_20_d",
+      "nomor_tabel": "4.20",
+      "halaman_pdf": 147,
+      "halaman_cetak": "139–140",
+      "catatan": "Perspektif D; berlanjut PDF 148"
+    },
+    {
+      "kode": "ringkasan_eksekutif",
+      "nomor_tabel": null,
+      "halaman_pdf": 3,
+      "halaman_cetak": "iii",
+      "catatan": "Nilai resmi KPI jafung 59,60% sesuai keputusan pengguna"
+    },
+    {
+      "kode": "keputusan_pengguna",
+      "nomor_tabel": null,
+      "halaman_pdf": null,
+      "halaman_cetak": null,
+      "catatan": "Konfirmasi Fase 0: denominator ber-NIDN non-PLN 198, snapshot/periode dan kebijakan data"
+    }
+  ],
+  "prodi": [
+    {
+      "kode": "01",
+      "urutan": 1,
+      "nama": "S2 Teknik Elektro",
+      "jenjang": "S2",
+      "mahasiswa": [
+        418,
+        39
+      ],
+      "dosen": [
+        18,
+        0,
+        18,
+        8,
+        0,
+        7,
+        0,
+        2
+      ],
+      "tendik": [
+        2,
+        1
+      ],
+      "pmb": [
+        140,
+        16
+      ],
+      "tracer": [
+        103,
+        8,
+        109,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "02",
+      "urutan": 2,
+      "nama": "S2 Ilmu Komputer",
+      "jenjang": "S2",
+      "mahasiswa": [
+        22,
+        14
+      ],
+      "dosen": [
+        5,
+        2,
+        5,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        30,
+        2
+      ],
+      "tracer": [
+        14,
+        1,
+        13,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "03",
+      "urutan": 3,
+      "nama": "S2 Teknik Sipil",
+      "jenjang": "S2",
+      "mahasiswa": [
+        34,
+        12
+      ],
+      "dosen": [
+        6,
+        2,
+        6,
+        3,
+        0,
+        2,
+        0,
+        2
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        20,
+        6
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "04",
+      "urutan": 4,
+      "nama": "S2 Teknik Mesin",
+      "jenjang": "S2",
+      "mahasiswa": [
+        23,
+        1
+      ],
+      "dosen": [
+        6,
+        0,
+        6,
+        3,
+        1,
+        0,
+        2,
+        0
+      ],
+      "tendik": [
+        0,
+        1
+      ],
+      "pmb": [
+        20,
+        6
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "05",
+      "urutan": 5,
+      "nama": "PSPPI",
+      "jenjang": "PROFESI",
+      "mahasiswa": [
+        221,
+        39
+      ],
+      "dosen": [
+        6,
+        1,
+        1,
+        5,
+        0,
+        2,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        150,
+        6
+      ],
+      "tracer": [
+        5,
+        0,
+        4,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "06",
+      "urutan": 6,
+      "nama": "S1 Teknik Informatika",
+      "jenjang": "S1",
+      "mahasiswa": [
+        703,
+        213
+      ],
+      "dosen": [
+        29,
+        12,
+        9,
+        1,
+        2,
+        21,
+        8,
+        1
+      ],
+      "tendik": [
+        3,
+        0
+      ],
+      "pmb": [
+        230,
+        191
+      ],
+      "tracer": [
+        37,
+        2,
+        37,
+        2,
+        null
+      ]
+    },
+    {
+      "kode": "07",
+      "urutan": 7,
+      "nama": "S1 Sistem Informasi",
+      "jenjang": "S1",
+      "mahasiswa": [
+        345,
+        186
+      ],
+      "dosen": [
+        9,
+        3,
+        0,
+        3,
+        3,
+        1,
+        2,
+        0
+      ],
+      "tendik": [
+        0,
+        1
+      ],
+      "pmb": [
+        120,
+        129
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "08",
+      "urutan": 8,
+      "nama": "S1 Sains Data",
+      "jenjang": "S1",
+      "mahasiswa": [
+        5,
+        2
+      ],
+      "dosen": [
+        5,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        20,
+        41
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "09",
+      "urutan": 9,
+      "nama": "S1 Teknik Elektro",
+      "jenjang": "S1",
+      "mahasiswa": [
+        953,
+        222
+      ],
+      "dosen": [
+        38,
+        15,
+        9,
+        9,
+        9,
+        14,
+        5,
+        0
+      ],
+      "tendik": [
+        3,
+        0
+      ],
+      "pmb": [
+        230,
+        218
+      ],
+      "tracer": [
+        81,
+        3,
+        78,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "10",
+      "urutan": 10,
+      "nama": "S1 Teknik Tenaga Listrik",
+      "jenjang": "S1",
+      "mahasiswa": [
+        497,
+        99
+      ],
+      "dosen": [
+        14,
+        6,
+        2,
+        4,
+        4,
+        5,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        1
+      ],
+      "pmb": [
+        240,
+        269
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "11",
+      "urutan": 11,
+      "nama": "S1 Teknik Sistem Energi",
+      "jenjang": "S1",
+      "mahasiswa": [
+        275,
+        122
+      ],
+      "dosen": [
+        7,
+        1,
+        1,
+        5,
+        1,
+        2,
+        0,
+        0
+      ],
+      "tendik": [
+        2,
+        0
+      ],
+      "pmb": [
+        120,
+        117
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "12",
+      "urutan": 12,
+      "nama": "S1 Teknik Sipil",
+      "jenjang": "S1",
+      "mahasiswa": [
+        247,
+        106
+      ],
+      "dosen": [
+        17,
+        12,
+        5,
+        1,
+        3,
+        12,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        110,
+        77
+      ],
+      "tracer": [
+        15,
+        1,
+        14,
+        null,
+        1
+      ]
+    },
+    {
+      "kode": "13",
+      "urutan": 13,
+      "nama": "S1 Teknik Lingkungan",
+      "jenjang": "S1",
+      "mahasiswa": [
+        111,
+        69
+      ],
+      "dosen": [
+        5,
+        3,
+        1,
+        1,
+        4,
+        0,
+        0,
+        0
+      ],
+      "tendik": [
+        0,
+        1
+      ],
+      "pmb": [
+        60,
+        117
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "14",
+      "urutan": 14,
+      "nama": "S1 Geospasial",
+      "jenjang": "S1",
+      "mahasiswa": [
+        81,
+        37
+      ],
+      "dosen": [
+        5,
+        3,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        40,
+        27
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "15",
+      "urutan": 15,
+      "nama": "S1 Teknik Mesin",
+      "jenjang": "S1",
+      "mahasiswa": [
+        300,
+        14
+      ],
+      "dosen": [
+        13,
+        2,
+        5,
+        7,
+        2,
+        3,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        1
+      ],
+      "pmb": [
+        120,
+        86
+      ],
+      "tracer": [
+        27,
+        2,
+        25,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "16",
+      "urutan": 16,
+      "nama": "S1 Teknik Industri",
+      "jenjang": "S1",
+      "mahasiswa": [
+        345,
+        187
+      ],
+      "dosen": [
+        7,
+        2,
+        0,
+        1,
+        3,
+        3,
+        0,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        160,
+        175
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "17",
+      "urutan": 17,
+      "nama": "S1 Bisnis Energi (Kewirausahaan)",
+      "jenjang": "S1",
+      "mahasiswa": [
+        211,
+        103
+      ],
+      "dosen": [
+        15,
+        4,
+        8,
+        6,
+        5,
+        2,
+        1,
+        1
+      ],
+      "tendik": [
+        0,
+        1
+      ],
+      "pmb": [
+        100,
+        153
+      ],
+      "tracer": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "18",
+      "urutan": 18,
+      "nama": "D3 Teknik Mesin",
+      "jenjang": "D3",
+      "mahasiswa": [
+        90,
+        8
+      ],
+      "dosen": [
+        6,
+        1,
+        0,
+        1,
+        0,
+        4,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        0
+      ],
+      "pmb": [
+        50,
+        16
+      ],
+      "tracer": [
+        6,
+        1,
+        7,
+        null,
+        null
+      ]
+    },
+    {
+      "kode": "19",
+      "urutan": 19,
+      "nama": "D3 Teknologi Listrik",
+      "jenjang": "D3",
+      "mahasiswa": [
+        199,
+        21
+      ],
+      "dosen": [
+        11,
+        4,
+        1,
+        1,
+        1,
+        7,
+        1,
+        0
+      ],
+      "tendik": [
+        1,
+        2
+      ],
+      "pmb": [
+        70,
+        26
+      ],
+      "tracer": [
+        21,
+        1,
+        20,
+        null,
+        null
+      ]
+    }
+  ],
+  "kpi": [
+    {
+      "kode": "A1",
+      "nama": "Pendapatan Vertikal (Mahasiswa)",
+      "perspektif": "A",
+      "bobot": 10,
+      "target_nilai": 2000,
+      "satuan": "mahasiswa",
+      "nilai_numerik": 61.95,
+      "formula": "Jumlah realisasi mahasiswa baru TA 2026/2027 / target mahasiswa baru",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "reported_percent",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {
+        "pendapatan_miliar_rp": 0.417
+      }
+    },
+    {
+      "kode": "A2",
+      "nama": "Pendapatan Horisontal (Non-mahasiswa)",
+      "perspektif": "A",
+      "bobot": 5,
+      "target_nilai": 80,
+      "satuan": "Miliar Rp",
+      "nilai_numerik": 0.025,
+      "formula": "Realisasi pendapatan non-mahasiswa / target RKA",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "A3",
+      "nama": "Efisiensi Biaya Penyelenggaraan Institut",
+      "perspektif": "A",
+      "bobot": 3,
+      "target_nilai": 90,
+      "satuan": "%",
+      "nilai_numerik": 53.71,
+      "formula": "Realisasi biaya operasi / realisasi pendapatan × 100%",
+      "jenis": "persen",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "A4",
+      "nama": "Efisiensi Biaya Adm & Umum",
+      "perspektif": "A",
+      "bobot": 2,
+      "target_nilai": 25,
+      "satuan": "%",
+      "nilai_numerik": 45.08,
+      "formula": "Realisasi biaya administrasi dan umum / realisasi pendapatan × 100%",
+      "jenis": "persen",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "A5",
+      "nama": "Kesehatan Arus Kas Operasi",
+      "perspektif": "A",
+      "bobot": 2,
+      "target_nilai": 89,
+      "satuan": "%",
+      "nilai_numerik": 99.59,
+      "formula": "Arus kas pengeluaran aktivitas operasi / arus kas penerimaan aktivitas operasi × 100%",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "A6",
+      "nama": "Perbaikan Tata Kelola (SOP Probis)",
+      "perspektif": "A",
+      "bobot": 3,
+      "target_nilai": 100,
+      "satuan": "%",
+      "nilai_numerik": 60,
+      "formula": "Jumlah SOP Probis yang direncanakan terimplementasikan",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B1",
+      "nama": "Tracer Study (masa tunggu <= 6 bulan)",
+      "perspektif": "B",
+      "bobot": 3,
+      "target_nilai": 65,
+      "satuan": "%",
+      "nilai_numerik": 63.5,
+      "formula": "Lulusan S1/D3 tahun 2024 bekerja/wirausaha/studi lanjut dengan masa tunggu <= 6 bulan / responden × 100% (formula akreditasi)",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B2",
+      "nama": "Penerimaan Lulusan via offtaker",
+      "perspektif": "B",
+      "bobot": 5,
+      "target_nilai": 100,
+      "satuan": "lulusan",
+      "nilai_numerik": 0,
+      "formula": "Jumlah lulusan S1/D3 diterima kerja melalui kerja sama offtaker industri tahun 2026",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "2 proses MoU/PKS",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B3",
+      "nama": "Mahasiswa berprestasi nasional/internasional",
+      "perspektif": "B",
+      "bobot": 3,
+      "target_nilai": 120,
+      "satuan": "mahasiswa",
+      "nilai_numerik": 69,
+      "formula": "Jumlah mahasiswa berprestasi nasional dan internasional",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B4",
+      "nama": "Kepuasan terhadap pengajaran (EDOM, 1–4)",
+      "perspektif": "B",
+      "bobot": 3,
+      "target_nilai": 3.5,
+      "satuan": "indeks",
+      "nilai_numerik": 3.35,
+      "formula": "Survei kepuasan akademik dan administrasi indeks 1–4, Februari/Agustus",
+      "jenis": "indeks",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B5",
+      "nama": "Kepuasan layanan kampus (1–5)",
+      "perspektif": "B",
+      "bobot": 3,
+      "target_nilai": 3.5,
+      "satuan": "indeks",
+      "nilai_numerik": 4.43,
+      "formula": "Survei kepuasan layanan dan fasilitas indeks 1–5",
+      "jenis": "indeks",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B6",
+      "nama": "Kerja sama Internasional (mahasiswa terkirim)",
+      "perspektif": "B",
+      "bobot": 5,
+      "target_nilai": 2,
+      "satuan": "jumlah",
+      "nilai_numerik": 5,
+      "formula": "Jumlah mahasiswa terkirim dalam international program",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "B7",
+      "nama": "Penjaringan sekolah unggulan/industri/pemda",
+      "perspektif": "B",
+      "bobot": 4,
+      "target_nilai": 300,
+      "satuan": "jumlah",
+      "nilai_numerik": 364,
+      "formula": "Jumlah mahasiswa baru dari Ikker, SMA unggulan, seleksi industri/pemerintah daerah",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C1",
+      "nama": "Kurikulum OBE",
+      "perspektif": "C",
+      "bobot": 4,
+      "target_nilai": 100,
+      "satuan": "%",
+      "nilai_numerik": 100,
+      "formula": "Persentase mata kuliah prodi S1/D3 semester 1 dan 2 menerapkan OBE",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C2",
+      "nama": "Penelitian hibah",
+      "perspektif": "C",
+      "bobot": 7,
+      "target_nilai": 135,
+      "satuan": "penelitian",
+      "nilai_numerik": 7,
+      "formula": "Jumlah kegiatan penelitian didanai hibah internal dan eksternal",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C3",
+      "nama": "Publikasi ilmiah",
+      "perspektif": "C",
+      "bobot": 6,
+      "target_nilai": 245,
+      "satuan": "artikel",
+      "nilai_numerik": 31,
+      "formula": "Jumlah karya dosen jurnal/prosiding bereputasi nasional/Scopus (submitted)",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C4",
+      "nama": "Sitasi",
+      "perspektif": "C",
+      "bobot": 6,
+      "target_nilai": 28,
+      "satuan": "%",
+      "nilai_numerik": 23.08,
+      "formula": "Artikel jurnal/prosiding terakreditasi tersitasi / seluruh artikel jurnal/prosiding terakreditasi × 100%",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C5",
+      "nama": "PKM",
+      "perspektif": "C",
+      "bobot": 4,
+      "target_nilai": 55,
+      "satuan": "kegiatan",
+      "nilai_numerik": 2,
+      "formula": "Jumlah pengabdian masyarakat internal institut dan/atau eksternal",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C6",
+      "nama": "HKI",
+      "perspektif": "C",
+      "bobot": 4,
+      "target_nilai": 60,
+      "satuan": "HKI",
+      "nilai_numerik": 87,
+      "formula": "Jumlah HKI (hak cipta dan paten)",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C7",
+      "nama": "Dosen reviewer jurnal",
+      "perspektif": "C",
+      "bobot": 3,
+      "target_nilai": 70,
+      "satuan": "dosen",
+      "nilai_numerik": 44,
+      "formula": "Jumlah dosen reviewer jurnal nasional/internasional",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C8",
+      "nama": "Akreditasi program (prodi naik rekomendasi)",
+      "perspektif": "C",
+      "bobot": 4,
+      "target_nilai": 2,
+      "satuan": "prodi",
+      "nilai_numerik": 0,
+      "formula": "Jumlah prodi meningkatkan rekomendasi improvement self assessment menuju akreditasi unggul",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Pelaksanaan Semester II",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C9",
+      "nama": "Dosen berjafung (Lektor ke atas)",
+      "perspektif": "C",
+      "bobot": 6,
+      "target_nilai": 60,
+      "satuan": "%",
+      "nilai_numerik": 59.6,
+      "formula": "Dosen Lektor/Lektor Kepala/Guru Besar / dosen tetap ber-NIDN di luar dosen PLN × 100%",
+      "jenis": "persen",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Nilai resmi Ringkasan Eksekutif; denominator 198 sesuai konfirmasi pengguna",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "C10",
+      "nama": "Kerja sama akademik industri/PT",
+      "perspektif": "C",
+      "bobot": 5,
+      "target_nilai": 65,
+      "satuan": "jumlah",
+      "nilai_numerik": 183,
+      "formula": "Jumlah kerja sama akademik industri/PT pada prodi S1 dan D3",
+      "jenis": "angka",
+      "arah": "higher_is_better",
+      "arah_terkonfirmasi": true,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": null,
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "D1",
+      "nama": "Ketepatan waktu RKA 2027",
+      "perspektif": "D",
+      "bobot": -2.5,
+      "target_nilai": null,
+      "satuan": "tanggal",
+      "nilai_numerik": null,
+      "formula": "Dokumen RKA 2027 diterima YPK PLN paling lambat tanggal target",
+      "jenis": "tanggal",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": false,
+      "basis_nilai": "actual",
+      "target_tanggal": "2026-12-01",
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Arah/rumus skor menunggu konfirmasi PRP",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "D2",
+      "nama": "Ketepatan waktu LK 2025",
+      "perspektif": "D",
+      "bobot": -2.5,
+      "target_nilai": null,
+      "satuan": "tanggal",
+      "nilai_numerik": null,
+      "formula": "Dokumen LK audited 2025 diterima YPK PLN paling lambat tanggal target",
+      "jenis": "tanggal",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": false,
+      "basis_nilai": "actual",
+      "target_tanggal": "2026-03-31",
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Arah/rumus skor menunggu konfirmasi PRP",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "D3",
+      "nama": "Ketepatan waktu laporan manajemen",
+      "perspektif": "D",
+      "bobot": -2.5,
+      "target_nilai": null,
+      "satuan": "tanggal",
+      "nilai_numerik": null,
+      "formula": "Dokumen LM diterima YPK PLN paling lambat tanggal target semesteran",
+      "jenis": "tanggal",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": false,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": "Juli 2026 / Januari 2027",
+      "nilai_tanggal": "2026-07-31",
+      "catatan": "Arah/rumus skor menunggu konfirmasi PRP",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "D4",
+      "nama": "Integrasi Siakad & SimKug",
+      "perspektif": "D",
+      "bobot": -2.5,
+      "target_nilai": 100,
+      "satuan": "%",
+      "nilai_numerik": null,
+      "formula": "Siakad dan SimKug terintegrasi penuh",
+      "jenis": "persen",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": false,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Arah/rumus skor menunggu konfirmasi PRP",
+      "metrik_tambahan": {}
+    },
+    {
+      "kode": "D5",
+      "nama": "Tindak lanjut rekomendasi audit",
+      "perspektif": "D",
+      "bobot": -2.5,
+      "target_nilai": 0,
+      "satuan": "%",
+      "nilai_numerik": null,
+      "formula": "Rekomendasi audit/temuan belum ditindaklanjuti / jumlah rekomendasi × bobot (rumus sumber)",
+      "jenis": "persen",
+      "arah": "lower_is_better",
+      "arah_terkonfirmasi": false,
+      "basis_nilai": "actual",
+      "target_tanggal": null,
+      "target_teks": null,
+      "nilai_tanggal": null,
+      "catatan": "Arah/rumus skor menunggu konfirmasi PRP",
+      "metrik_tambahan": {}
+    }
+  ],
+  "rka": [
+    {
+      "kode_item": "prodi",
+      "item": "Program studi",
+      "angka": 22,
+      "satuan": "program studi",
+      "jenjang": null
+    },
+    {
+      "kode_item": "mahasiswa_lama",
+      "item": "Mahasiswa lama",
+      "angka": 5132,
+      "satuan": "mahasiswa",
+      "jenjang": null
+    },
+    {
+      "kode_item": "mahasiswa_baru",
+      "item": "Mahasiswa baru",
+      "angka": 2000,
+      "satuan": "mahasiswa",
+      "jenjang": null
+    },
+    {
+      "kode_item": "kelulusan_s2",
+      "item": "Kelulusan S2",
+      "angka": 85,
+      "satuan": "lulusan",
+      "jenjang": "S2"
+    },
+    {
+      "kode_item": "kelulusan_s1",
+      "item": "Kelulusan S1",
+      "angka": 684,
+      "satuan": "lulusan",
+      "jenjang": "S1"
+    },
+    {
+      "kode_item": "kelulusan_d3",
+      "item": "Kelulusan D3",
+      "angka": 131,
+      "satuan": "lulusan",
+      "jenjang": "D3"
+    },
+    {
+      "kode_item": "ipk_s2",
+      "item": "IPK rata-rata S2",
+      "angka": 3.81,
+      "satuan": "indeks",
+      "jenjang": "S2"
+    },
+    {
+      "kode_item": "ipk_s1",
+      "item": "IPK rata-rata S1",
+      "angka": 3.82,
+      "satuan": "indeks",
+      "jenjang": "S1"
+    },
+    {
+      "kode_item": "ipk_d3",
+      "item": "IPK rata-rata D3",
+      "angka": 3.55,
+      "satuan": "indeks",
+      "jenjang": "D3"
+    },
+    {
+      "kode_item": "penelitian_dikti",
+      "item": "Penelitian hibah Dikti",
+      "angka": 22,
+      "satuan": "penelitian",
+      "jenjang": null
+    },
+    {
+      "kode_item": "penelitian_lain",
+      "item": "Penelitian lain",
+      "angka": 70,
+      "satuan": "penelitian",
+      "jenjang": null
+    },
+    {
+      "kode_item": "pengabdian",
+      "item": "Pengabdian masyarakat",
+      "angka": 50,
+      "satuan": "lokasi",
+      "jenjang": null
+    },
+    {
+      "kode_item": "scopus",
+      "item": "Jurnal Scopus",
+      "angka": 100,
+      "satuan": "artikel",
+      "jenjang": null
+    },
+    {
+      "kode_item": "haki",
+      "item": "HAKI",
+      "angka": 20,
+      "satuan": "HAKI",
+      "jenjang": null
+    },
+    {
+      "kode_item": "sertifikasi_dosen",
+      "item": "Sertifikasi dosen",
+      "angka": 50,
+      "satuan": "dosen",
+      "jenjang": null
+    },
+    {
+      "kode_item": "pendapatan_operasional",
+      "item": "Pendapatan operasional",
+      "angka": "227291028375",
+      "satuan": "Rp",
+      "jenjang": null
+    },
+    {
+      "kode_item": "pendapatan_csr",
+      "item": "Pendapatan CSR",
+      "angka": "22500000000",
+      "satuan": "Rp",
+      "jenjang": null
+    },
+    {
+      "kode_item": "beban_operasional",
+      "item": "Beban operasional",
+      "angka": "193175191393",
+      "satuan": "Rp",
+      "jenjang": null
+    },
+    {
+      "kode_item": "beban_csr",
+      "item": "Beban CSR",
+      "angka": "20250000000",
+      "satuan": "Rp",
+      "jenjang": null
+    }
+  ]
+}

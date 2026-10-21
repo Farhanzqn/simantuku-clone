@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-satu_data_itpln_dev}
+      POSTGRES_USER: ${POSTGRES_USER:-itpln}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Isi POSTGRES_PASSWORD di .env}
+      TZ: Asia/Jakarta
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - itpln_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+volumes:
+  itpln_postgres_data:

@@ -1,0 +1,105 @@
+{
+  "dokumen": "Laporan Manajemen ITPLN Semester I 2026",
+  "periode_laporan": "2026-S1",
+  "tahun": 2026,
+  "domains": {
+    "penelitian": {
+      "tabel": "4.7",
+      "page": 116,
+      "cetak": "108-109",
+      "rows": [
+        {
+          "kategori": "internal",
+          "target": 85,
+          "realisasi": 0,
+          "dana": null,
+          "page": 116
+        },
+        {
+          "kategori": "hibah-eksternal",
+          "target": 15,
+          "realisasi": 2,
+          "dana": null,
+          "page": 116
+        },
+        {
+          "kategori": "kerjasama-nasional",
+          "target": 10,
+          "realisasi": 0,
+          "dana": null,
+          "page": 116
+        },
+        {
+          "kategori": "kerjasama-internasional",
+          "target": 10,
+          "realisasi": 5,
+          "dana": null,
+          "page": 116
+        },
+        {
+          "kategori": "kerjasama-industri",
+          "target": 10,
+          "realisasi": 0,
+          "dana": null,
+          "page": 117
+        }
+      ]
+    },
+    "hki": {
+      "tabel": "4.8",
+      "page": 118,
+      "cetak": "110",
+      "rows": [
+        {
+          "kategori": "hak-cipta",
+          "target": 150,
+          "diajukan": 87,
+          "disetujui": 87,
+          "page": 118
+        },
+        {
+          "kategori": "paten",
+          "target": 2,
+          "diajukan": 2,
+          "disetujui": 0,
+          "page": 118
+        },
+        {
+          "kategori": "paten-sederhana",
+          "target": 5,
+          "diajukan": 0,
+          "disetujui": 0,
+          "page": 118
+        },
+        {
+          "kategori": "desain-industri",
+          "target": 3,
+          "diajukan": 0,
+          "disetujui": 0,
+          "page": 118
+        }
+      ]
+    },
+    "pkm": {
+      "tabel": "4.9",
+      "page": 119,
+      "cetak": "111",
+      "rows": [
+        {
+          "kategori": "internal",
+          "target": 25,
+          "realisasi": 0,
+          "dana": null,
+          "page": 119
+        },
+        {
+          "kategori": "eksternal",
+          "target": 4,
+          "realisasi": 2,
+          "dana": null,
+          "page": 119
+        }
+      ]
+    }
+  }
+}

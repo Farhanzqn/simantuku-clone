@@ -1,0 +1,21 @@
+body[data-page="iku"] .iku-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-block:20px}
+body[data-page="iku"] .kpi-card strong{font-size:28px;color:var(--text,#1d3048)}
+body[data-page="iku"] .table-scroll{max-width:100%;overflow-x:auto}
+body[data-page="iku"] table{min-width:1080px;width:100%;border-collapse:collapse}
+body[data-page="iku"] caption{text-align:left;padding:12px;font-weight:600}
+body[data-page="iku"] th,body[data-page="iku"] td{padding:12px;vertical-align:top}
+body[data-page="iku"] .iku-group th{background:#edf5fd;color:#125ca3;text-align:left}
+body[data-page="iku"] .iku-label{min-width:290px;max-width:480px;font-weight:500;text-align:left;white-space:normal;overflow-wrap:break-word}
+body[data-page="iku"] .iku-depth-1{padding-left:28px}body[data-page="iku"] .iku-depth-2{padding-left:44px}
+body[data-page="iku"] .iku-badge{display:inline-block;border-radius:8px;padding:3px 8px;font-weight:600;white-space:nowrap}
+body[data-page="iku"] .success{color:#176344;background:#e9f5ef;accent-color:#176344}
+body[data-page="iku"] .warning{color:#79520c;background:#fff4d9;accent-color:#79520c}
+body[data-page="iku"] .danger{color:#a12b3c;background:#fcecef;accent-color:#a12b3c}
+body[data-page="iku"] small{display:block;font-size:12px;margin-top:5px}
+body[data-page="iku"] .iku-quality{color:#79520c;white-space:normal}
+body[data-page="iku"] progress{width:110px;max-width:100%;height:9px;border:0;display:block;margin-top:8px}
+body[data-page="iku"] progress::-webkit-progress-bar{background:#dce4ee;border-radius:4px}
+body[data-page="iku"] progress::-webkit-progress-value{background:currentColor;border-radius:4px}
+body[data-page="iku"] progress::-moz-progress-bar{background:currentColor;border-radius:4px}
+body[data-page="iku"] #iku-panel{min-width:0}
+@media(max-width:640px){body[data-page="iku"] .iku-summary{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body[data-page="iku"] .kpi-card{padding:14px}body[data-page="iku"] .filters>*{max-width:100%}}
